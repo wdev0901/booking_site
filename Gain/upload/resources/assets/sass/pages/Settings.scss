@@ -1,0 +1,24 @@
+@import '../components/Variables.scss';
+@import '../helper/PlaceHolder.scss';
+
+.settings-left-card {
+  padding-left: 0 !important;
+  @media only screen and (max-width: 991px) {
+    padding-right: 0 !important;
+  }
+
+  .main-layout-card {
+    margin-bottom: 0.75rem;
+  }
+
+  @extend %custom-list-with-active-border;
+}
+
+
+// Email Setting
+#test-mail {
+  &::placeholder {
+    font-size: 0.8rem;
+  }
+}
+

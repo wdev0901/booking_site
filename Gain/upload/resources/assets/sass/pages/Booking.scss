@@ -1,0 +1,138 @@
+.form-control[readonly]{
+  background-color: #fff !important;
+}
+.time-slot-container{
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  .time-slot {
+    border: 0.12rem solid #4a97fd;
+    border-radius: 5px;
+    padding: 1rem;
+    color: #4a97fd;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 1.5rem;
+  }
+}
+
+.time-slot-space-wrapper {
+  width: 280px;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  align-items: flex-end;
+  .time-slot-space {
+    color: $app-color;
+    &:nth-child(1) {
+      vertical-align: middle;
+      i {
+        font-size: 1.7rem;
+      }
+    }
+    &:nth-child(3) {
+      vertical-align: middle;
+      i {
+        font-size: 1.7rem;
+      }
+    }
+    .seat-input{
+      border: 0;
+      border-bottom: 1px solid #ebedf2;
+    }
+  }
+}
+
+.time-slot{
+  &:hover {
+    background: #89b8f7;
+    color: #fff;
+    cursor: pointer;
+    border: 0.12rem solid #89b8f7;
+    transition: background 0.5s;
+  }
+}
+
+.selectedTime {
+  background: #4a97fd;
+  color: #fff !important;
+}
+
+.time-slot.selectedTime{
+  &:hover {
+    background: #4a97fd;
+    cursor: pointer;
+    border: 0.12rem solid #4a97fd;
+  }
+}
+
+.disabledTimeSlot {
+  pointer-events: none;
+  cursor: default;
+  background: #dfdfdf;
+  color: #a4a4a4;
+  border: 0.12rem solid #dfdfdf;
+}
+
+.time-slot.disabledTimeSlot {
+  margin-bottom: 0;
+}
+
+.time-slot-button {
+  margin-top: 1.5rem;
+  button {
+    width: 100%;
+    height: 3.5rem;
+  }
+}
+.booking-status {
+  padding: 6px 10px;
+  border-radius: 0.25rem;
+  color: white;
+  font-size: 75%;
+}
+.booking-details-view {
+  display: inline-block;
+  vertical-align: top;
+  padding: 1rem 0;
+  &:nth-of-type(2n-1) {
+    width: 25% !important;
+  }
+  &:nth-of-type(2n) {
+    width: 70% !important;
+  }
+}
+.booking-details-view-buttons {
+  width: 100%;
+}
+
+.booking-modal-min-height{
+  min-height: 41vh;
+}
+
+.booking-form-wrapper {
+  .smile_icon {
+    i {
+      font-size: 4rem;
+    }
+  }
+}
+
+.time-slot-input {
+  width: 250px;
+  .input-group-prepend, .input-group-append {
+    .input-group-text {
+      border: 0;
+      height: 100%;
+      cursor: pointer;
+      font-size: 1.6em;
+      background-color: transparent;
+    }
+  }
+  .form-control {
+    border: 0;
+    font-size: 1.4em;
+    border-bottom: 1px solid;
+  }
+}

@@ -1,0 +1,60 @@
+//Components
+@import "components/Variables.scss";
+@import "components/Loader.scss";
+@import "components/ActionButton.scss";
+@import "components/buttonLoader.scss";
+@import "components/rollerLoader.scss";
+
+// lato
+@import url('fonts/Lato/lato.css');
+
+// Navbar Custom
+@import "includes/NavbarCustom.scss";
+
+// Tabs Custom
+@import "includes/TabsCustom.scss";
+
+// Sidebar
+@import "includes/Sidebar.scss";
+
+// Main Layout
+@import "includes/MainLayout.scss";
+
+//Customized Bootstrap Classes
+@import "includes/CustomizedBootstrapClass";
+
+//Settings Index
+@import "pages/Settings.scss";
+
+//Pages
+@import "pages/Profile";
+@import "pages/Dashboard";
+@import "pages/Booking";
+
+@import "custom/popover/popover";
+@import "custom/Customer & Suppelier/customerSupplier.scss";
+@import "custom/dateRangePicker.scss";
+@import "includes/CommonUse.scss";
+
+// Booking old css
+@import "booking_old_css/animate.scss";
+@import "booking_old_css/calendar-seven-days-style.scss";
+@import "booking_old_css/calendar-style.scss";
+@import "booking_old_css/install-style.scss";
+@import "booking_old_css/jquery.timepicker.scss";
+@import "booking_old_css/profile-style.scss";
+@import "booking_old_css/style.scss";
+@import "custom/custom.scss";
+@import "custom/home-landing";
+
+//full calender css
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+
+//vue 2 VueTimepicker css
+@import '~vue2-timepicker/dist/VueTimepicker.css';
+
+//Drag Images css
+@import 'custom/drag-image';
+
+
